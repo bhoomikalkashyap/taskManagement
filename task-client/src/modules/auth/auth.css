@@ -1,0 +1,71 @@
+/* Apply to the parent container to ensure the layout takes up the full height of the viewport */
+div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    text-align: start;
+    
+  }
+  
+  /* Style for the login layout */
+  .login-layout {
+    width: 300px; /* Set width of the login box */
+    margin-left: 50px; /* Adjust as necessary to align with the left */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style for the task buddy image */
+  .task-buddy {
+    width: 100%;
+    height: auto;
+    max-width: 200px; 
+  }
+  
+  /* Style for the content paragraph */
+  .content {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 10px; /* Space below the text */
+    white-space: pre-line; /* This will allow the text to break into two lines based on space */
+  }
+  
+  /* Style for the Google login image */
+  .googleLogin {
+    width: 100%;
+    height: auto;
+    max-width: 250px; /* Adjust the size of the Google login image */
+  }
+
+  /* Positioning for the circles image */
+.circles {
+    position: absolute; /* Position it relative to the entire page */
+    top: 50%; /* Align it vertically centered */
+    right: 0; /* Align it to the right side of the screen */
+    transform: translateY(-50%); /* Adjust for perfect vertical centering */
+    width: 50%; /* Adjust the width of the circles image */
+    height: auto;
+    z-index: -1; /* Ensure it stays in the background */
+  }
+  
+  /* Positioning for the taskList image */
+  .taskList {
+    position: absolute; /* Position it relative to the entire page */
+    top: 105px; /* Align it slightly below the top of the viewport */
+    left: 666px; /* Align it to the right side of the screen */
+    width: 600px; /* Set the width of the taskList image */
+  height: 400px; /* Adjust the height */
+    border-radius: 20px 0px 0px 0px; /* Rounded corner styling */
+    /* opacity: 0.9; Make the taskList slightly visible */
+    z-index: 1; /* Ensure it stays above the circles image */
+  }
+  
+  
