@@ -1,0 +1,10 @@
+export const INDEX_LOADING = "INDEX_LOADING";
+export const INDEX_SUCCESS = "INDEX_SUCCESS";
+export const INDEX_FAIL = "INDEX_FAIL";
+
+export const SERVER_ERROR = 'SERVER_ERROR';
+export const SERVER_WORKING = "SERVER_WORKING";
+
+export const USER_DATA_LOADING = "USER_DATA_LOADING";
+export const USER_DATA_FAILED = "USER_DATA_FAILED";
+export const USER_DATA_LOADED = "USER_DATA_LOADED";
